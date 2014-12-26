@@ -1,0 +1,47 @@
+we integrated with the sample app.
+we are able to decrypt with our sample app and play with VLC
+we hv to integrate with our player but need some changes in Suriya stack. Once we get the release from Siruya,
+we can 
+
+
+their SDK is only for HLS, what about DASH
+licensing cost
+
+they also sub-license MS playready, if the same SDK supports this standard, we can integrate that as well
+
+they have multi-drm as well...
+
+competition does not provide windows 8 support. our player works with all the platforms - android,  ios, windows
+
+visual on - doesn not support WP8
+
+we have worked on divx/stagefreight
+
+-------------------------------------------------------------------------------------------------------------------
+
+elemental:
+
+on the fly transcodung - they have their inhoue HW solution
+end - end demo - h264 to hevc transcoding - hw does conversion and start streaming
+sw client will do the decode and play
+same hw will do multi streaming - encdoing and stream over multi cast
+client will connec to the the multi cast network
+they took our player and were able to do decode and play
+but when they shared their HEVC + DASH content, it gave issues
+after that, no further connection
+
+transcoding on the fly - h264 to hevc - JP
+hevc encoding - dec/jan PoC
+
+---------------------------------------------------------------------------------------
+
+4K - we are supporting 4K playback on 2.5GHz quad core
+what is the bit rate people expect? problems they are facing? 
+what are the hw platforms you use for 4K decode?
+15-20 MBPS - 
+
+------------------------------------------------------------------------------------------
+
+JP - codecs, algorithms, 
+Maruti - system level prog
+
