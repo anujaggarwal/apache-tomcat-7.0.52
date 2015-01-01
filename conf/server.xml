@@ -126,7 +126,7 @@
 
   <!--       <Context docBase="D:\Personal\BACKUP\Non-Cloud\Projects\Software\apache-tomcat-7.0.52\wtpwebapps\demo-prop-2" path="/demo-prop-1" reloadable="true" source="org.eclipse.jst.jee.server:demo-prop-2"/> -->
       
-         <Context docBase="D:\Personal\BACKUP\Google Drive\Ideas\Truality\files" path="/files" />
+         <Context docBase="D:\Personal\BACKUP\Google Drive\Ideas\Truality\files" path="/prod-prop-3/files" />
 
       </Host>
     </Engine>
